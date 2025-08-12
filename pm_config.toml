@@ -1,0 +1,4 @@
+[[apps]]
+name = 'my-app'
+command = 'node'
+args = ['-v']

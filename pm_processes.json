@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "ping-192.168.50.1",
+    "Command": "ping -i 1 192.168.50.1",
+    "Port": 0
+  },
+  {
+    "Name": "web-server",
+    "Command": "node example/node/app.js",
+    "Port": 3001
+  },
+  {
+    "Name": "ping-192.168.50.100",
+    "Command": "ping -i 1 192.168.50.100",
+    "Port": 0
+  }
+]
